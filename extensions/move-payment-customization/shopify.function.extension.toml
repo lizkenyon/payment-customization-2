@@ -1,0 +1,12 @@
+name = "move-payment-customization"
+type = "payment_customization"
+api_version = "2023-04"
+
+[build]
+command = ""
+path = "dist/function.wasm"
+# [START payment_customization-move-payment-method.update-create-path]
+[ui.paths]
+create = "/payment-customization/:functionId/new"
+details = "/"
+# [END payment_customization-move-payment-method.update-create-path]

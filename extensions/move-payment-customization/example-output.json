@@ -1,0 +1,10 @@
+{
+    "operations": [
+      {
+        "move": {
+          "index": 0,
+          "paymentMethodId": 123456789
+        }
+      }
+    ]
+  }
